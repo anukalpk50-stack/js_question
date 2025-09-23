@@ -15,23 +15,25 @@
 // console.clear()
 // console.log(arr1.indexOf(3));
 
-// todo  keep adding numbers to the array in 1 until 0 is added to  the array
+// todo (1) keep adding numbers to the array in 1 until 0 is added to  the array
 
 // const arr = [2, 4, 5];
 // for (let i = 1; i <= 10; i++) {
 //     arr.push(i);
 // }
 // console.log(arr);
-// todo filter for numbers divisible by 10 from a given array
+
+// todo (2) filter for numbers divisible by 10 from a given array
 // let arr = [20, 22, 50, 53, 60, 80, 98, 90, 78]
 // const divisible_by_10 = arr.filter(num => num % 10 === 0);
 // console.log(divisible_by_10);
-// todo create an array of numbers and take input from the user to add numbers to this array.
+
+//(3) todo create an array of numbers and take input from the user to add numbers to this array.
 
 
-// todo create an array of square of given numbers.
+// (4)todo create an array of square of given numbers.
 
-// todo use reduce to calculate factorial of a given numbers from an array of first n natural numbers. (n being the number where factorial needs to be calculated)
+// (5)todo use reduce to calculate factorial of a given numbers from an array of first n natural numbers. (n being the number where factorial needs to be calculated)
 let arr = [5, 6, 7, 9, 11]
 const factorial = arr.reduce((num1, num2) => {
     return num1 * num2
